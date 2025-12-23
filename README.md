@@ -4,7 +4,7 @@ This project provides an automated computer vision pipeline to detect, segment, 
 
 ## Features
 
-* **Advanced Preprocessing:** Uses **CLAHE** (Contrast Limited Adaptive Histogram Equalization) and **Bilateral Filtering** to enhance worm visibility while suppressing noise.
+* **Advanced Preprocessing:** Uses **CLAHE** and **Bilateral Filtering** to enhance worm visibility while suppressing noise.
 * **Robust Segmentation:** Combines Otsu's thresholding with geometric filtering to distinguish worms from background debris.
 * **Automatic Repair:** Uses morphological "gluing" to reconnect worm segments that may have been broken during thresholding.
 * **Precise Measurement:**
